@@ -1,0 +1,175 @@
+@font-face {
+	font-family: 'linecons';
+	src:url('fonts/linecons.eot');
+	
+	
+  src: url('fonts/linecons.eot');
+  src: url('fonts/linecons.eot?#iefix') format('embedded-opentype'), 
+  url('fonts/linecons.woff') format('woff'), 
+  url('fonts/linecons.ttf') format('truetype'), 
+  url('fonts/linecons.svg#linecons') format('svg');
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'linecons' !important;
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="li_"]:before, [class*=" li_"]:before {
+	font-family: 'linecons' !important;
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.li_heart:before {
+	content: "\e000";
+}
+.li_cloud:before {
+	content: "\e001";
+}
+.li_star:before {
+	content: "\e002";
+}
+.li_tv:before {
+	content: "\e003";
+}
+.li_sound:before {
+	content: "\e004";
+}
+.li_video:before {
+	content: "\e005";
+}
+.li_trash:before {
+	content: "\e006";
+}
+.li_user:before {
+	content: "\e007";
+}
+.li_key:before {
+	content: "\e008";
+}
+.li_search:before {
+	content: "\e009";
+}
+.li_settings:before {
+	content: "\e00a";
+}
+.li_camera:before {
+	content: "\e00b";
+}
+.li_tag:before {
+	content: "\e00c";
+}
+.li_lock:before {
+	content: "\e00d";
+}
+.li_bulb:before {
+	content: "\e00e";
+}
+.li_pen:before {
+	content: "\e00f";
+}
+.li_diamond:before {
+	content: "\e010";
+}
+.li_display:before {
+	content: "\e011";
+}
+.li_location:before {
+	content: "\e012";
+}
+.li_eye:before {
+	content: "\e013";
+}
+.li_bubble:before {
+	content: "\e014";
+}
+.li_stack:before {
+	content: "\e015";
+}
+.li_cup:before {
+	content: "\e016";
+}
+.li_phone:before {
+	content: "\e017";
+}
+.li_news:before {
+	content: "\e018";
+}
+.li_mail:before {
+	content: "\e019";
+}
+.li_like:before {
+	content: "\e01a";
+}
+.li_photo:before {
+	content: "\e01b";
+}
+.li_note:before {
+	content: "\e01c";
+}
+.li_clock:before {
+	content: "\e01d";
+}
+.li_paperplane:before {
+	content: "\e01e";
+}
+.li_params:before {
+	content: "\e01f";
+}
+.li_banknote:before {
+	content: "\e020";
+}
+.li_data:before {
+	content: "\e021";
+}
+.li_music:before {
+	content: "\e022";
+}
+.li_megaphone:before {
+	content: "\e023";
+}
+.li_study:before {
+	content: "\e024";
+}
+.li_lab:before {
+	content: "\e025";
+}
+.li_food:before {
+	content: "\e026";
+}
+.li_t-shirt:before {
+	content: "\e027";
+}
+.li_fire:before {
+	content: "\e028";
+}
+.li_clip:before {
+	content: "\e029";
+}
+.li_shop:before {
+	content: "\e02a";
+}
+.li_calendar:before {
+	content: "\e02b";
+}
+.li_vallet:before {
+	content: "\e02c";
+}
+.li_vynil:before {
+	content: "\e02d";
+}
+.li_truck:before {
+	content: "\e02e";
+}
+.li_world:before {
+	content: "\e02f";
+}
