@@ -1,0 +1,126 @@
+@font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 100;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/100.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 200;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/200.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/300.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/500.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/800.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/900.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 100;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/100italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 200;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/200italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/300italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/500italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/600italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/700italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/800italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///D:/JWS%20Aruba%202021/fonts/Poppins/900italic.ttf') format('truetype');
+}
