@@ -117,7 +117,6 @@
     margin-left: 0.125rem;
     top: 0; }
   .nav-dropdown .dropdown-item {
-    font-size: 0.8125rem;
     font-weight: 500;
     line-height: 2;
     padding: 0.3846em 4.615em 0.3846em 1.5385em;
@@ -263,4 +262,4 @@
 .is-builder .nav-dropdown.collapsing {
   transition: none !important; }
 
-/*# sourceMappingURL=style.css.map */
+
