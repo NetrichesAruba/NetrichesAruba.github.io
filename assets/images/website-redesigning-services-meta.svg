@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   version="1.1"
+   id="svg10964"
+   sodipodi:docname="JunTech-Website-Redesign-Aruba.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10968" />
+  <sodipodi:namedview
+     id="namedview10966"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.5332031"
+     inkscape:cx="256.32612"
+     inkscape:cy="255.34777"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10964" />
+  <g
+     id="Flat">
+    <path
+       d="m432 104v296a24.006 24.006 0 0 1 -24 24h-304a24.006 24.006 0 0 1 -24-24v-352a24.006 24.006 0 0 1 24-24h248z"
+       fill="#348fd9"
+       id="path10905"
+       style="fill:#ffffff" />
+    <path
+       d="m432 104v16h-40a23.983 23.983 0 0 1 -24-24v-56z"
+       fill="#3086cd"
+       id="path10907"
+       style="fill:#f2f2f2" />
+    <path
+       d="m376 104h56l-80-80v56a24 24 0 0 0 24 24z"
+       fill="#60d1e0"
+       id="path10909"
+       style="fill:#2a7fff" />
+    <path
+       d="m432 158.31v241.69a24.006 24.006 0 0 1 -24 24h-246.2z"
+       fill="#3086cd"
+       id="path10911"
+       style="fill:#f2f2f2" />
+    <path
+       d="m24 264v224h224zm48 176v-64l49.34 49.34 14.66 14.66z"
+       fill="#f35244"
+       id="path10913" />
+    <g
+       fill="#2d7dbf"
+       id="g10935">
+      <path
+         d="m104 48h16v16h-16z"
+         id="path10915"
+         style="fill:#5599ff" />
+      <path
+         d="m136 48h16v16h-16z"
+         id="path10917"
+         style="fill:#5599ff" />
+      <path
+         d="m168 48h16v16h-16z"
+         id="path10919"
+         style="fill:#5599ff" />
+      <path
+         d="m335.852 166.552c-.043-.238-.092-.474-.156-.7-.038-.134-.084-.264-.128-.4-.071-.21-.148-.417-.236-.621-.056-.13-.116-.258-.179-.385-.1-.2-.206-.39-.32-.579-.072-.118-.142-.235-.219-.349-.131-.194-.275-.378-.423-.559-.078-.1-.151-.2-.234-.289a7.775 7.775 0 0 0 -.605-.6c-.056-.051-.1-.107-.163-.156a7.873 7.873 0 0 0 -.83-.622c-.013-.009-.028-.015-.042-.024-.078-.05-.164-.09-.244-.137a8.032 8.032 0 0 0 -.725-.389c-.034-.015-.064-.037-.1-.053l-72-32a8.01 8.01 0 0 0 -6.5 0l-72 32c-.036.016-.067.039-.1.055a8.1 8.1 0 0 0 -.716.384c-.082.048-.169.089-.249.14-.014.009-.029.015-.042.024a7.873 7.873 0 0 0 -.83.622c-.058.048-.107.105-.163.155a7.994 7.994 0 0 0 -.606.6c-.082.092-.155.191-.233.287-.148.182-.292.366-.423.56-.077.114-.147.231-.219.349-.114.189-.221.381-.32.579-.063.127-.123.255-.179.385-.088.2-.165.411-.236.621-.044.132-.09.262-.128.4-.064.232-.113.468-.157.706-.021.118-.05.234-.067.353a7.948 7.948 0 0 0 -.08 1.091v88a8 8 0 0 0 4.751 7.311l72 32a8.029 8.029 0 0 0 .911.334c.087.026.174.046.262.069a7.871 7.871 0 0 0 .769.168c.1.016.192.033.288.045a7.907 7.907 0 0 0 1.019.073 7.922 7.922 0 0 0 1.019-.073c.1-.012.19-.029.285-.045.261-.043.52-.1.777-.169.085-.023.17-.042.254-.067a8.339 8.339 0 0 0 .913-.335l72-32a8 8 0 0 0 4.752-7.311v-88a7.933 7.933 0 0 0 -.08-1.093c-.02-.12-.046-.236-.068-.355zm-79.852-21.798 52.3 23.246-52.3 23.245-52.3-23.245zm-64 35.556 11.2 4.978 44.8 19.912v70.49l-56-24.89zm72 95.38v-70.49l44.8-19.911 11.2-4.979v70.49z"
+         id="path10921"
+         style="fill:#0055d4" />
+      <path
+         d="m248 320h16v40h-16z"
+         id="path10923"
+         style="fill:#2a7fff" />
+      <path
+         d="m248 72h16v40h-16z"
+         id="path10925"
+         style="fill:#2a7fff" />
+      <path
+         d="m128.75 133.438h16v37.125h-16z"
+         transform="matrix(.431 -.902 .902 .431 -59.345 209.889)"
+         id="path10927"
+         style="fill:#2a7fff" />
+      <path
+         d="m356.688 144h37.125v16h-37.125z"
+         transform="matrix(.902 -.431 .431 .902 -28.869 176.588)"
+         id="path10929"
+         style="fill:#2a7fff" />
+      <path
+         d="m359.25 266.482h16v19.394h-16z"
+         transform="matrix(.431 -.902 .902 .431 -40.242 488.541)"
+         id="path10931" />
+      <path
+         d="m118.188 272h37.125v16h-37.125z"
+         transform="matrix(.902 -.431 .431 .902 -107.333 86.288)"
+         id="path10933"
+         style="fill:#2a7fff" />
+    </g>
+    <path
+       d="m264 392h224v64h-224z"
+       fill="#f98500"
+       id="path10937" />
+    <path
+       d="m488 392v64h-157.97l65.09-64z"
+       fill="#f77c00"
+       id="path10939" />
+    <path
+       d="m448 392h16v24h-16z"
+       fill="#db6b07"
+       id="path10941" />
+    <path
+       d="m416 392h16v24h-16z"
+       fill="#db6b07"
+       id="path10943" />
+    <path
+       d="m384 392h16v24h-16z"
+       fill="#db6b07"
+       id="path10945" />
+    <path
+       d="m352 392h16v24h-16z"
+       fill="#db6b07"
+       id="path10947" />
+    <path
+       d="m320 392h16v24h-16z"
+       fill="#db6b07"
+       id="path10949" />
+    <path
+       d="m288 392h16v24h-16z"
+       fill="#db6b07"
+       id="path10951" />
+    <path
+       d="m481.373 206.627a22.627 22.627 0 0 0 6.627-16 22.627 22.627 0 0 0 -38.627-16l-9.373 9.373 32 32z"
+       fill="#f35244"
+       id="path10953" />
+    <path
+       d="m291.833 245.373h192.333v45.255h-192.333z"
+       fill="#ffb531"
+       transform="matrix(.707 -.707 .707 .707 -75.862 352.853)"
+       id="path10955" />
+    <path
+       d="m296 360 40-8-32-32z"
+       fill="#e0e0de"
+       id="path10957" />
+    <path
+       d="m448 177.373h16v45.255h-16z"
+       fill="#cfcfcd"
+       transform="matrix(.707 -.707 .707 .707 -7.87 380.999)"
+       id="path10959" />
+    <path
+       d="m248 488h-190.37l48.81-48h29.56l-14.66-14.66 32.27-31.73z"
+       fill="#e84d40"
+       id="path10961" />
+  </g>
+</svg>

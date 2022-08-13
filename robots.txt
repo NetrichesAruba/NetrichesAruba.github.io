@@ -1,0 +1,10 @@
+Sitemap: https://netrichesaruba.com/sitemap.xml
+User-agent: *
+Disallow: /cgi-bin
+
+
+
+
+
+
+
