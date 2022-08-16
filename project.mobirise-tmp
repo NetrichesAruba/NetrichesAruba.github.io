@@ -114,7 +114,9 @@
       "email": "juntechwebsolutions@gmail.com"
     },
     "global_footer_custom": "<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"8fb39fc1c5774a66b9c44b3a6886fe35\"}'></script><!-- End Cloudflare Web Analytics -->",
-    "global_before_html": ""
+    "global_before_html": "",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
