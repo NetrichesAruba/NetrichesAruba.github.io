@@ -77,7 +77,7 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-GEHFGL7TQZ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-GEHFGL7TQZ');\n</script>",
     "publishChangesOnly": true,
-    "mbrsiteDomain": "x7punhtbao",
+    "mbrsiteDomain": "ziyyox3rsu",
     "witsec-language": "en",
     "witsec-mailform": false,
     "witsec-white-label": true,
@@ -121,11 +121,11 @@
       "settings": {
         "main": true,
         "title": "Netriches Aruba Web Solutions | Website Design | SEO Services",
-        "meta_descr": "Netriches Aruba Web Solutions is an experienced web design agency based in Aruba. We design SEO-friendly websites that are primed for search engine optimization.",
+        "meta_descr": "Netriches Aruba Web Solutions is an experienced web design company based in Aruba that provides SEO-friendly websites that are primed for search engine optimization.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/netriches-aruba-web-solutions-twitter-logo.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/web-design-and-local-seo-services-aruba.webp"
       },
       "components": [
         {
