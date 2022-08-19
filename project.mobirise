@@ -114,7 +114,10 @@
       "email": "juntechwebsolutions@gmail.com"
     },
     "global_footer_custom": "",
-    "global_before_html": ""
+    "global_before_html": "",
+    "publishType": "github",
+    "gitHubName": "NetrichesAruba",
+    "gitHubPath": ""
   },
   "pages": {
     "index.html": {
