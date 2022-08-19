@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Netriches Aruba 2022",
-    "currentPage": "static-website-design-services.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -72,12 +72,12 @@
       "colorText": "#232323",
       "colorLink": "#e43f3f",
       "underlineLink": false,
-      "text": "By continuing you agree to our <a href='https://juntechwebdesign.ga/juntech-general-terms-conditions'>Terms of Service</a> and <a href='https://juntechwebdesign.ga/juntech-privacy-policy'>Privacy Policy</a>."
+      "text": "By continuing you agree to our <a href='https://netrichesaruba.com/netriches-aruba-terms-conditions'>Terms of Service</a> and <a href='https://netrichesaruba.com/netriches-aruba-privacy-policy'>Privacy Policy</a>."
     },
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-GEHFGL7TQZ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-GEHFGL7TQZ');\n</script>",
     "publishChangesOnly": true,
-    "mbrsiteDomain": "ennyrjty9k",
+    "mbrsiteDomain": "tdxeqlfihg",
     "witsec-language": "en",
     "witsec-mailform": false,
     "witsec-white-label": true,
@@ -10259,12 +10259,12 @@
           "_anchor": "Header-Static-Web-Design-Aruba",
           "_isUserblock": true,
           "_cid": "sUyeemnTj3",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "alias": false,
