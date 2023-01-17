@@ -5,15 +5,15 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'Lato', sans-serif;
-  font-size: 4.8rem;
+  font-family: 'font';
+  font-size: 4.6rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6rem;
+  font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'font';
   font-size: 2.6rem;
   line-height: 1.1;
 }
@@ -21,7 +21,7 @@ body {
   font-size: 3.25rem;
 }
 .display-4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'font';
   font-size: 1.1rem;
   line-height: 1.5;
 }
@@ -29,7 +29,7 @@ body {
   font-size: 1.375rem;
 }
 .display-5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'font';
   font-size: 1.8rem;
   line-height: 1.5;
 }
@@ -37,7 +37,7 @@ body {
   font-size: 2.25rem;
 }
 .display-7 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'font';
   font-size: 1.3rem;
   line-height: 1.5;
 }
@@ -51,14 +51,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 3.84rem;
+    font-size: 3.68rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.36rem;
-    font-size: calc( 2.33rem + (4.8 - 2.33) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.33rem + (4.8 - 2.33) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.22rem;
+    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.08rem;
@@ -552,6 +552,12 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .alert-danger {
   background-color: #222222;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #f20000;
   border-color: #f20000;
@@ -559,6 +565,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -589,7 +598,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'font';
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -603,7 +612,7 @@ a:hover {
   border-color: #f20000 !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'font';
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -615,6 +624,19 @@ blockquote {
   border-color: #f20000;
 }
 /* Forms */
+.mbr-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #f20000;
@@ -2582,12 +2604,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -3610,12 +3632,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -4546,12 +4568,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -5508,12 +5530,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -6518,12 +6540,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -7492,12 +7514,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -8462,12 +8484,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -9498,12 +9520,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -10422,12 +10444,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -11376,12 +11398,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -12312,12 +12334,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -13307,12 +13329,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -14480,12 +14502,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -15380,12 +15402,12 @@ a {
   margin-right: 10px;
 }
 .cid-sQvY7guvxD .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -16413,12 +16435,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -17425,12 +17447,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -18388,12 +18410,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -18599,19 +18621,25 @@ a {
 .cid-tfeHCLtNL2 .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #fafafa;
+  background: #222222;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
 }
 @media (min-width: 992px) {
   .cid-tfeHCLtNL2 .item-wrapper .item-content {
-    padding: 2rem;
+    padding: 2rem 2rem 0;
+  }
+  .cid-tfeHCLtNL2 .item-wrapper .item-footer {
+    padding: 0 2rem 2rem;
   }
 }
 @media (max-width: 991px) {
   .cid-tfeHCLtNL2 .item-wrapper .item-content {
-    padding: 1rem;
+    padding: 1rem 1rem 0;
+  }
+  .cid-tfeHCLtNL2 .item-wrapper .item-footer {
+    padding: 0 1rem 1rem;
   }
 }
 .cid-tfeHCLtNL2 .mbr-section-btn {
@@ -18631,7 +18659,7 @@ a {
 }
 .cid-tfeHCLtNL2 .item-subtitle {
   text-align: center;
-  color: #232323;
+  color: #ffffff;
 }
 .cid-teafE9dEaS {
   padding-top: 1rem;
@@ -18653,7 +18681,7 @@ a {
 .cid-teafE9dEaS .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #fafafa;
+  background: #232323;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -18685,7 +18713,7 @@ a {
 }
 .cid-teafE9dEaS .item-subtitle {
   text-align: center;
-  color: #232323;
+  color: #ffffff;
 }
 .cid-thsqVk4aR6 {
   padding-top: 1rem;
@@ -18735,7 +18763,7 @@ a {
 .cid-swmxyWBLW7 .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #fafafa;
+  background: #222222;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -18759,7 +18787,7 @@ a {
 .cid-swmxyWBLW7 .mbr-text,
 .cid-swmxyWBLW7 .mbr-section-btn {
   text-align: center;
-  color: #232323;
+  color: #ffffff;
 }
 .cid-swmxyWBLW7 .item-title {
   text-align: center;
@@ -18771,57 +18799,57 @@ a {
 .cid-swmxyWBLW7 .mbr-section-subtitle {
   color: #232323;
 }
-.cid-swmLXDjpIg {
+.cid-tsopmhYqVI {
   padding-top: 1rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
-.cid-swmLXDjpIg img,
-.cid-swmLXDjpIg .item-img {
+.cid-tsopmhYqVI img,
+.cid-tsopmhYqVI .item-img {
   width: 100%;
 }
-.cid-swmLXDjpIg .item:focus,
-.cid-swmLXDjpIg span:focus {
+.cid-tsopmhYqVI .item:focus,
+.cid-tsopmhYqVI span:focus {
   outline: none;
 }
-.cid-swmLXDjpIg .item {
+.cid-tsopmhYqVI .item {
   cursor: pointer;
   margin-bottom: 2rem;
 }
-.cid-swmLXDjpIg .item-wrapper {
+.cid-tsopmhYqVI .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #fafafa;
+  background: #222222;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
 }
 @media (min-width: 992px) {
-  .cid-swmLXDjpIg .item-wrapper .item-content {
+  .cid-tsopmhYqVI .item-wrapper .item-content {
     padding: 2rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-swmLXDjpIg .item-wrapper .item-content {
+  .cid-tsopmhYqVI .item-wrapper .item-content {
     padding: 1rem;
   }
 }
-.cid-swmLXDjpIg .mbr-section-btn {
+.cid-tsopmhYqVI .mbr-section-btn {
   margin-top: auto !important;
 }
-.cid-swmLXDjpIg .mbr-section-title {
+.cid-tsopmhYqVI .mbr-section-title {
   color: #232323;
 }
-.cid-swmLXDjpIg .mbr-text,
-.cid-swmLXDjpIg .mbr-section-btn {
+.cid-tsopmhYqVI .mbr-text,
+.cid-tsopmhYqVI .mbr-section-btn {
   text-align: center;
-  color: #232323;
+  color: #ffffff;
 }
-.cid-swmLXDjpIg .item-title {
+.cid-tsopmhYqVI .item-title {
   text-align: center;
   color: #f20000;
 }
-.cid-swmLXDjpIg .item-subtitle {
+.cid-tsopmhYqVI .item-subtitle {
   text-align: left;
 }
 .cid-sob3mKCOSa {
@@ -19548,12 +19576,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -20414,12 +20442,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -21277,12 +21305,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -22242,12 +22270,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -23195,12 +23223,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -24239,12 +24267,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -25296,12 +25324,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -26377,12 +26405,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -27345,12 +27373,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -28457,12 +28485,12 @@ a {
   margin-right: 10px;
 }
 .cid-sOEzKnIMuA .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -29469,12 +29497,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -30432,12 +30460,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -31425,12 +31453,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -32379,12 +32407,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -33333,12 +33361,12 @@ a {
   margin-right: 10px;
 }
 .cid-tcwB3QtVat .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -34445,12 +34473,12 @@ a {
   margin-right: 10px;
 }
 .cid-tcNymQlJhB .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -35478,12 +35506,12 @@ a {
   margin-right: 10px;
 }
 .cid-tdRsjbZ3CL .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -36399,12 +36427,12 @@ a {
   margin-right: 10px;
 }
 .cid-sLwcrS2Xas .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
@@ -37236,12 +37264,12 @@ a {
   margin-right: 10px;
 }
 .cid-tf9ULYKHGg .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
-  -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
-  -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
-  animation-iteration-count: 5;
+  -moz-animation: Pulse 2.9s ease-out;
+  -moz-animation-iteration-count: 2;
+  -webkit-animation: Pulse 2.9s ease-out;
+  -webkit-animation-iteration-count: 2;
+  animation: Pulse 2.9s ease-out;
+  animation-iteration-count: 2;
 }
 @-moz-keyframes Pulse {
   0% {
