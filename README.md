@@ -1,4 +1,4 @@
-Welcome to Netriches Aruba - Website Design & SEO Services
+Welcome to https://netrichesaruba.com - Website Design & SEO Services
 
 Netriches Aruba Web Solutions is an experienced SEO-Friendly Website Design company based in Aruba. We aim to improve your online business exposure by delivering an effective, professional business website design. Our website design is 100% search engine-friendly and makes it easy for Google and other search engines to crawl your site and understand what it’s about. We are dedicated to providing the best possible online services to our clients.
 
